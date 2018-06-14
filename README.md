@@ -9,3 +9,5 @@ Cells - Cell library containing all of the cells used to generate the core
 topVerilog - Cell library containing assembled core and its pieces.
 
 The core is designed to communicate with a DAC and output audio depending on the button pressed by checking EPROM.
+
+![Screenshot](cell.jpg)
