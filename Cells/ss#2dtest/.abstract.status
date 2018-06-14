@@ -1,0 +1,6 @@
+cUiSetViewStatus {ss-test} {layout} {0}
+cUiSetViewStatus {ss-test} {logical} {0}
+cUiSetViewStatus {ss-test} {abstract.pin} {0}
+cUiSetViewStatus {ss-test} {abstract.ext} {0}
+cUiSetViewStatus {ss-test} {abstract} {0}
+cUiSetViewStatus {ss-test} {abstract.ver} {0}

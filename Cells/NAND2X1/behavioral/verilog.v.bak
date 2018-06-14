@@ -1,0 +1,21 @@
+//Verilog HDL for "Lib6710_xx", "NAND2X1" "behavioral"
+
+
+module NAND2X1 ( Y, A, B );
+
+  input A;
+  output Y;
+  input B;
+
+  reg Y;
+  always @(A or B)
+	begin 
+	Y = ~(A & B);
+	end
+
+  specify
+    (A => Y) = (1.0, 1.0);
+	(B => Y) = (1.0, 1.0);
+  endspecify
+
+endmodule

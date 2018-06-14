@@ -1,0 +1,22 @@
+//Verilog HDL for "Lib6710_02", "DFF" "behavioral"
+
+
+module DFF ( Q, QB, CLK, CLRB, D );
+
+  input CLK;
+  output reg Q;
+  input D;
+  input CLRB;
+  output reg QB;
+
+  assign QB = ~Q;
+  always @ (posedge CLK) begin
+    if(~CLRB) begin
+      Q <= 0;
+	  QB <= 1;
+    end
+    Q <= D;
+    QB <= ~D;
+  end
+
+endmodule

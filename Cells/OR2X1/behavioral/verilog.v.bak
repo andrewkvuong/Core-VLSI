@@ -1,0 +1,6 @@
+//Verilog HDL for "Lib6710_02", "OR2X1" "behavioral"
+
+
+module OR2X1 ( );
+
+endmodule

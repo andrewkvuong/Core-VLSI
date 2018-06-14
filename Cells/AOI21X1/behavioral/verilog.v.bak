@@ -1,0 +1,10 @@
+//Verilog HDL for "Lib6710_02", "AOI21X1" "behavioral"
+
+
+module AOI21X1 (Y, A, B, C );
+
+	assign Y = ~((A&B)|C);
+
+
+
+endmodule

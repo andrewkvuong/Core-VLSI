@@ -1,0 +1,6 @@
+//Verilog HDL for "Lib6710_02", "NAND3X1" "behavioral"
+
+
+module NAND3X1 ( );
+
+endmodule
